@@ -1,5 +1,4 @@
 import { createAction } from '@reduxjs/toolkit';
-import actionType from './contact-types';
 
 export const fetchContactsRequest = createAction(
   'contacts/fetchContactsRequest'

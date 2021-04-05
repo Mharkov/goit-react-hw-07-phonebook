@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
 import ContactForm from './components/ContactForm/ContactForm';
 import Filter from './components/Filter/Filter';
 import ContactList from './components/ContactList/ContactList';
-import * as contactOperations from '../src/redux/contact/contact-operations';
 import * as contactSelectors from '../src/redux/contact/contact-selectors';
 
 const App = ({ loading }) => {
